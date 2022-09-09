@@ -8,7 +8,7 @@ function Portfolio() {
                     This is a sort of Portfolio?
                 </p>
             </header>
-            <body>
+            {/*<body>*/}
                 <a
                     className="App-link"
                     href="https://github.com/annkissam/scryglass#readme"
@@ -20,7 +20,7 @@ function Portfolio() {
                 {' '} that i made {/* or can use &nbsp; */}
                 <br/><br/>
                 [Other projects to fill out]
-            </body>
+            {/*</body>*/}
         </div>
     );
 }

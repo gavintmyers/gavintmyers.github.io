@@ -16,9 +16,9 @@ function App() {
         <br/>
         <br/>
       </header>
-      <body>
+      {/*<body>*/}
         <Portfolio />
-      </body>
+      {/*</body>*/}
     </div>
   );
 }

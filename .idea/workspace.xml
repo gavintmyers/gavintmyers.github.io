@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d614279-197c-43c4-a800-88a6a94a67b0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Portfolio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Portfolio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gfg-web-draft/README.old.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gfg-web-draft/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gfg-web-draft/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gfg-web-draft/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gfg-web-draft/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gfg-web-draft/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gfg-web-draft/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gfg-web-draft/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gfg-web-draft/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gfg-web-draft/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gfg-web-draft/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gfg-web-draft/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gfg-web-draft/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gfg-web-draft/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gfg-web-draft/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gfg-web-draft/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gfg-web-draft/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ds9SchifTDxXq2pnAo8Mo6UElN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/gavinm/repos/gavintmyers.github.io/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ruby.rails.projectView.checked": "true",
+    "settings.editor.selected.configurable": "duplicates.index",
+    "ts.external.directory.path": "/Applications/RubyMine.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/../gfg-web-draft" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RubyModuleManagerSettings">
+    <option name="blackListedRootsPaths">
+      <list>
+        <option value="$PROJECT_DIR$/../literacyfootprints" />
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d614279-197c-43c4-a800-88a6a94a67b0" name="Changes" comment="" />
+      <created>1661476925903</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661476925903</updated>
+      <workItem from="1661476927630" duration="8666000" />
+      <workItem from="1661541200662" duration="5627000" />
+      <workItem from="1662733156464" duration="463000" />
+      <workItem from="1662733806488" duration="13554000" />
+      <workItem from="1663365321131" duration="1365000" />
+      <workItem from="1663939392540" duration="20204000" />
+      <workItem from="1664546746487" duration="7015000" />
+      <workItem from="1666360613730" duration="154000" />
+      <workItem from="1666360773389" duration="25000" />
+      <workItem from="1666366137784" duration="11416000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

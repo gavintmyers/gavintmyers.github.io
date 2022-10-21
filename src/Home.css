@@ -1,0 +1,49 @@
+
+.Home-navbox {
+    justify-content: space-between;
+    height: 24rem;
+}
+
+.Home-navcard {
+    background-color: #9999ff;
+    /*background-color: #babacc;*/
+    color: #000000;
+    --bs-card-border-radius: 1rem;
+    --bs-card-border-width: 2px;
+    --bs-card-border-color: rgba(0, 0, 0, 0);
+    width: 15rem;
+    /*min-width: 30rem;*/
+    /*max-width: 30rem;*/
+    /*height: 100%; !* keeps them all the same height *!*/
+    /*card-cap-padding-y: 100px;*/
+    /*card-cap-padding-x: 100px;*/
+
+    transition-duration: 0.5s;
+}
+
+.Home-navcard-active {
+    background-color: #61dafb;
+    border-color: #ffffff;
+    border-width: thick;
+}
+
+.Home-navcard:hover {
+    --bs-card-border-color: rgba(220, 220, 256, 1);
+    /*background-color: #8080FF;*/
+    background-color: #8c8cff;
+    transform: scale(1.005);
+
+    /*transition-duration: 0.5s; redundant now */
+}
+
+.Portfolio-link {
+    color: #61dafb;
+}
+
+
+/*[sfr]*/
+/*.Home-navcard-thumbnail {*/
+/*    !*margin-left: 1rem;*!*/
+/*    !*margin: 1rem;*!*/
+/*    padding: 0.8rem;*/
+/*}*/

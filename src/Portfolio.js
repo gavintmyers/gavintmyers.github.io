@@ -14,9 +14,9 @@ import {
 function Portfolio() {
     return (
         <div className="Portfolio container">
-            <header className="Portfolio-header">
+            <header className="Portfolio-header subpage-title">
                 <p>
-                    This is a sort of Portfolio?
+                    <h1>This is a sort of Portfolio?</h1>
                 </p>
             </header>
             <div className="row g-4">
@@ -34,8 +34,8 @@ function Portfolio() {
                             <h1 className="card-title">Scryglass Ruby Tool</h1>
                             <p className="card-text">With supporting text below as a natural lead-in to additional
                                 content.</p>
-                            {/*<a href="https://github.com/annkissam/scryglass#readme" className="btn btn-primary" onClick=" ">Github</a>*/}
-                            {NestedLinkButton("Github", "https://github.com/annkissam/scryglass#readme")}
+                            {/*<a href="https://github.com/gavintmyers/scryglass#readme" className="btn btn-primary" onClick=" ">Github</a>*/}
+                            {NestedLinkButton("Github", "https://github.com/gavintmyers/scryglass#readme")}
                             {' '}
                             {NestedLinkButton("Rubygems.org", "https://rubygems.org/gems/scryglass")}
                         </div>
@@ -57,14 +57,15 @@ function Portfolio() {
                     </div>
                 </div>
                 <div className="col-md-6 d-flex justify-content-center">
-                    <div className="card Portfolio-card">
+                    <div className="card Portfolio-card" onClick={
+                        (e) => {e.preventDefault(); openLink("http://localhost:3000/visual_arts")
+                    }}>
                         <img src={livy_thumbnail} className="card-img-top Portfolio-card-thumbnail" alt="this?"></img>
 
                         <div className="card-body">
-                            <h1 className="card-title">.livy Bash Tool</h1>
-                            <p className="card-text">With supporting text below as a natural lead-in to additional
-                                content.</p>
-                            {NestedLinkButton("Github", "#")}
+                            <h1 className="card-title">(Visual Arts)</h1>
+                            <p className="card-text">Some bits of visual art I've made over the years.</p>
+                            {NestedLinkButton("Remove this button...", "#")}
                         </div>
                     </div>
                 </div>

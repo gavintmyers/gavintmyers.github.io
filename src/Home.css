@@ -1,4 +1,10 @@
 
+.Home-headertext {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
 .Home-navbox {
     justify-content: space-between;
     height: 24rem;
@@ -22,7 +28,8 @@
 }
 
 .Home-navcard-active {
-    background-color: #61dafb;
+    background-color: var(--section-selection-color);
+    /*background-color: #61AFFB;*/
     border-color: #ffffff;
     border-width: thick;
 }

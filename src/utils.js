@@ -22,6 +22,9 @@ const openInNewTab = (url) => {
 
 const openLink = (url) => {
     window.open(url, "_self")
+    let element = document.getElementById("subpageTitle");
+    console.log(element);
+    element.scrollIntoView({behavior:"smooth", inline:"nearest"});
 }
 
 

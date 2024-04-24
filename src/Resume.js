@@ -3,7 +3,7 @@
 
 function Resume() {
     return (
-        <h2>Resume page</h2>
+        <h1 className={'subpage-title'}>Resumé</h1>
     );
 }
 

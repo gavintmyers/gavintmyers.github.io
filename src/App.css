@@ -4,6 +4,7 @@
 
 .Moon-image {
   height: 70vmin;
+  max-height: 30rem;
   pointer-events: none;
 }
 

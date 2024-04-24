@@ -3,8 +3,7 @@
 
 function Contact() {
     return (
-        <h2>Contact page</h2>
-
+        <h1 className={'subpage-title'}>Contact</h1>
     );
 }
 

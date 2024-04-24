@@ -7,6 +7,7 @@ import Resume from './Resume';
 import Contact from './Contact';
 import Scryglass from './Scryglass';
 import Livy from './Livy';
+import VisualArts from './VisualArts';
 import ReactTooltip from "react-tooltip";
 import {
   BrowserRouter as Router,
@@ -33,6 +34,7 @@ function App() {
           <Route exact path="/contact" element={<Contact/>}/>
           <Route exact path="/scryglass" element={<Scryglass/>}/>
           <Route exact path="/livy" element={<Livy/>}/>
+          <Route exact path="/visual_arts" element={<VisualArts/>}/>
         </Routes>
       </div>
     </Router>

@@ -4,7 +4,9 @@ $body-bg: #000000;
 //$code-color: #ffffff;
 //$body-font-size: 4rem;
 //$font-size-base: 2rem;
-//:root {
+:root {
+  --section-selection-color: #61dafb;
+}
 body {
   --bs-body-font-size: 1.7rem;  /* Overwrite this variable */
   //font-size: 3rem; // does nothing here
@@ -12,3 +14,14 @@ body {
 
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
+
+.subpage-title {
+  color: var(--section-selection-color);
+}
+
+.gentle-margin {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+

@@ -18,17 +18,22 @@ var navCardTitles = {
 
 function NavCard({cardKey}) {
     var cardTitle = navCardTitles[cardKey]
-    let cardClasses = "card Home-navcard align-self-center";
+    let cardClasses = "card Home-navcard align-self-center col-xs-12";
     if (useLocation().pathname === `/${cardKey}`) {
         cardClasses += " Home-navcard-active"
     }
 
     return (
-        <div className={cardClasses} onClick={
-            (e) => { e.preventDefault(); openLink(`http://localhost:3000/${cardKey}`)
-            }}>
-            <div className="card-body">
-                <h1 className="card-title">{cardTitle}</h1>
+        <div className="col-md-3 d-flex justify-content-center">
+            <div className={cardClasses} onClick={
+                (e) => {
+                    e.preventDefault();
+                    openLink(`http://localhost:3000/${cardKey}`);
+
+                }}>
+                <div className="card-body">
+                    <h1 className="card-title">{cardTitle}</h1>
+                </div>
             </div>
         </div>
     )
@@ -45,11 +50,12 @@ function Home() {
 
                 {/*<code>Gavin Myers personal site</code>*/}
                 {/*<code>(in progress)</code>*/}
-                <b>Gavin Myers personal site</b> (in progress)
+                <br/>
+                <div className="Home-headertext"><b>Gavin Myers personal site</b> (in progress)</div>
                 <br/>
                 <br/>
-                <br/>
-                <div className="Home-navbox d-flex flex-column content">
+                <div className="row g-2">
+                    {/*<div className="Home-navbox d-flex flex-column content">*/}
                     <NavCard cardKey={'portfolio'} />
                     <NavCard cardKey={'about_me'} />
                     <NavCard cardKey={'resume'} />
